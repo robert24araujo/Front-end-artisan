@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+    <script src="./assets/js/main.js"></script>
     <title>ArtisanPlace 2</title>
   </head>
   <body>
@@ -54,9 +55,9 @@
           </div>
         </nav>
       </header>
-      <hr size="" width="100%" color="black" />
-      <section>
-        <ul class="home-list">
+      <div class="line"></div>
+      <section class="list section">
+        <ul class="home-list container">
           <li class="home-itens">
             <a href="#" class="home-tags">Moda Feminina</a>
             <i class="ri-arrow-right-s-line"></i>
@@ -81,35 +82,43 @@
             <a href="#" class="home-tags">Bazar e Pets</a>
             <i class="ri-arrow-right-s-line"></i>
           </li>
-          <article class="box_anuncio"></article>
+          <article class="box">
+            <img
+              src="assets/img/pinta.webp"
+              alt="imagem de uma mulher pintando"
+            />
+          </article>
         </ul>
       </section>
-      <div class="day">
-        <article class="tag"></article>
-        <p>Destaques</p>
-      </div>
-      <div class="time">
-        <h1>Ofertas Relâmpago</h1>
-        <article class="Countdown">
-          <div class="conjunto">
-            <div id="days">00</div>
-            <span>Dias</span>
+      <section class="page section">
+        <article class="home-page container">
+          <div class="day">
+            <article class="tag"></article>
+            <p>Destaques</p>
           </div>
-          <div class="conjunto">
-            <div id="Hours">00</div>
-            <span>Horas</span>
-          </div>
-          <div class="conjunto">
-            <div id="min">00</div>
-            <span>Minutos</span>
-          </div>
-          <div class="conjunto">
-            <div id="sec">00</div>
-            <span>Segundos</span>
+          <div class="time">
+            <h1>Ofertas Relâmpago</h1>
+            <article class="Countdown">
+              <div class="conjunto">
+                <div id="days">00</div>
+                <span>Dias</span>
+              </div>
+              <div class="conjunto">
+                <div id="Hours">00</div>
+                <span>Horas</span>
+              </div>
+              <div class="conjunto">
+                <div id="min">00</div>
+                <span>Minutos</span>
+              </div>
+              <div class="conjunto">
+                <div id="sec">00</div>
+                <span>Segundos</span>
+              </div>
+            </article>
           </div>
         </article>
-      </div>
+      </section>
     </main>
-    <script type="./assets/js/main.js"></script>
   </body>
 </html>
